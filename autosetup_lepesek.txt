@@ -1,0 +1,32 @@
+#!/bin/bash
+rm -rf /var/www/uzenofal
+
+masterIP=$(cat /uzenofal/masterIP)
+
+#CONNECT TO MASTER
+ssh root@192.168.50.28 /uzenofal/cmd/updateFiles.sh
+mount 192.168.50.28:/uzenofal/shared /uzenofal/shared
+sleep 2
+
+#Unzip files
+unzip /var/www/uzenofal-demo.zip -d /var/www/uzenofal > /dev/null
+
+#Change masterIP
+originalMas="master_db_host = 'localhost';"
+newMas="master_db_host = '${masterIP}';"
+sed -i "s/$originalMas/$newMas/g" /var/www/uzenofal/db.php
+
+#Change master in mysql cmd line
+masterFile=$(cat /uzenofal/shared/masterFILE)
+masterPos=$(cat /uzenofal/shared/masterPOS)
+
+echo "master file: ${masterFile}\t master pos: ${masterPos}"
+
+cmd="CHANGE MASTER TO MASTER_HOST='${masterIP}',MASTER_USER='uzenofal',MASTER_PASSWORD='H3rhMmQX0tQM',MASTER_LOG_FILE='${masterFile}',MASTER_LOG_POS=${masterPos};"
+echo "${cmd}"
+mysql --user="root" --password="oprepass" --database="uzenofal" --execute="stop slave;"
+mysql --user="root" --password="oprepass" --database="uzenofal" --execute="${cmd}"
+mysql --user="root" --password="oprepass" --database="uzenofal" --execute="start slave;"
+
+#Load DB
+mysqldump -u root --password="oprepass" uzenofal < /uzenofal/shared/db.sql

@@ -1,0 +1,2413 @@
+
+[LOG]----------START SLAVE---------- at 2022-10-16 12:37:53
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.175]
+[LOG] Service active on [192.168.50.175]
+[LOG]----------START SLAVE---------- at 2022-10-16 12:41:19
+ID: 4	nextID: 5
+[LOG] Start VM id: 4
+Waiting for VM "4" to power on...
+VM "4" has been successfully started.
+[LOG] Import VM id: 5
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "5"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.223]
+[LOG] Service active on [192.168.50.223]
+[LOG]----------STOP SLAVE---------- at 2022-10-16 12:43:40
+[LOG] Removing from backend block. IP: [192.168.50.223]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 4
+[LOG] Reloading nginx
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+Waiting for VM "1" to power on...
+VM "1" has been successfully started.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+Waiting for VM "1" to power on...
+VM "1" has been successfully started.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG]----------START SLAVE---------- at 2022-10-16 13:32:04
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.172]
+[LOG] Service active on [192.168.50.172]
+[LOG]----------START SLAVE---------- at 2022-10-16 13:35:12
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.86]
+[LOG] Service active on [192.168.50.86]
+[LOG]----------STOP SLAVE---------- at 2022-10-16 13:43:08
+[LOG] Removing from backend block. IP: [192.168.50.86]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-19 14:17:50
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.10]
+[LOG] Service active on [192.168.50.10]
+[LOG]----------STOP SLAVE---------- at 2022-11-19 14:19:38
+[LOG] Removing from backend block. IP: [192.168.50.10]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-19 14:21:09
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.193]
+[LOG] Service active on [192.168.50.193]
+[LOG]----------STOP SLAVE---------- at 2022-11-19 14:23:57
+[LOG] Removing from backend block. IP: [192.168.50.193]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-19 14:25:30
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.47]
+[LOG] Service active on [192.168.50.47]
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+Waiting for VM "1" to power on...
+VM "1" has been successfully started.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG]----------START SLAVE---------- at 2022-11-19 14:37:59
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.160]
+[LOG] Service active on [192.168.50.160]
+[LOG]----------STOP SLAVE---------- at 2022-11-19 14:40:19
+[LOG] Removing from backend block. IP: [192.168.50.160]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-19 14:42:19
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.110]
+[LOG] Service active on [192.168.50.110]
+[LOG]----------STOP SLAVE---------- at 2022-11-19 14:44:39
+[LOG] Removing from backend block. IP: [192.168.50.110]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-19 14:46:49
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.90]
+[LOG] Service active on [192.168.50.90]
+Waiting for VM "1" to power on...
+VM "1" has been successfully started.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG]----------START SLAVE---------- at 2022-11-27 13:03:16
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.74]
+[LOG] Service active on [192.168.50.74]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 13:06:05
+[LOG] Removing from backend block. IP: [192.168.50.74]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 16:08:17
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.150]
+[LOG] Service active on [192.168.50.150]
+[LOG]----------START SLAVE---------- at 2022-11-27 16:14:22
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.159]
+[LOG] Service active on [192.168.50.159]
+[LOG]----------START SLAVE---------- at 2022-11-27 16:17:09
+ID: 4	nextID: 5
+[LOG] Start VM id: 4
+Waiting for VM "4" to power on...
+VM "4" has been successfully started.
+[LOG] Import VM id: 5
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "5"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.198]
+[LOG] Service active on [192.168.50.198]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 16:18:52
+[LOG] Removing from backend block. IP: [192.168.50.198]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 4
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 16:20:24
+[LOG] Removing from backend block. IP: [192.168.50.159]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 16:26:19
+[LOG] Removing from backend block. IP: [192.168.50.150]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 16:41:35
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.36]
+[LOG] Service active on [192.168.50.36]
+[LOG]----------START SLAVE---------- at 2022-11-27 16:47:12
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.136]
+[LOG] Service active on [192.168.50.136]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 16:49:33
+[LOG] Removing from backend block. IP: [192.168.50.136]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 16:51:45
+[LOG] Removing from backend block. IP: [192.168.50.36]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 16:53:55
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.121]
+[LOG] Service active on [192.168.50.121]
+[LOG]----------START SLAVE---------- at 2022-11-27 16:57:20
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.121]
+[LOG] Service active on [192.168.50.121]
+[LOG]----------START SLAVE---------- at 2022-11-27 17:07:15
+ID: 4	nextID: 5
+[LOG] Start VM id: 4
+Waiting for VM "4" to power on...
+VM "4" has been successfully started.
+[LOG] Import VM id: 5
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "5"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.69]
+[LOG] Service active on [192.168.50.69]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:09:24
+[LOG] Removing from backend block. IP: [192.168.50.69]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 4
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:11:35
+[LOG] Removing from backend block. IP: [192.168.50.199]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:13:45
+[LOG] Removing from backend block. IP: [192.168.50.121]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 17:17:01
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.125]
+[LOG] Service active on [192.168.50.125]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:20:27
+[LOG] Removing from backend block. IP: [192.168.50.125]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 17:39:32
+ID: 2	nextID: 3
+[LOG] Start VM id: 2
+Waiting for VM "2" to power on...
+VM "2" has been successfully started.
+[LOG] Import VM id: 3
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.231]
+[LOG] Service active on [192.168.50.231]
+[LOG]----------START SLAVE---------- at 2022-11-27 17:41:16
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.239]
+[LOG] Service active on [192.168.50.239]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:43:23
+[LOG] Removing from backend block. IP: [192.168.50.239]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 17:45:33
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.43]
+[LOG] Service active on [192.168.50.43]
+[LOG]----------START SLAVE---------- at 2022-11-27 17:48:58
+ID: 4	nextID: 5
+[LOG] Start VM id: 4
+Waiting for VM "4" to power on...
+VM "4" has been successfully started.
+[LOG] Import VM id: 5
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "5"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.209]
+[LOG] Service active on [192.168.50.209]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:52:24
+[LOG] Removing from backend block. IP: [192.168.50.209]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 4
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-27 17:54:35
+[LOG] Removing from backend block. IP: [192.168.50.43]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 17:57:51
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.140]
+[LOG] Service active on [192.168.50.140]
+[LOG]----------STOP SLAVE---------- at 2022-11-27 18:00:11
+[LOG] Removing from backend block. IP: [192.168.50.140]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------START SLAVE---------- at 2022-11-27 18:03:28
+ID: 3	nextID: 4
+[LOG] Start VM id: 3
+Waiting for VM "3" to power on...
+VM "3" has been successfully started.
+[LOG] Import VM id: 4
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "4"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Static wait for starting
+[LOG] IP is given. IP: [192.168.50.42]
+[LOG] Service active on [192.168.50.42]
+[LOG]----------STOP SLAVE---------- at 2022-11-28 08:25:28
+[LOG] Removing from backend block. IP: [192.168.50.42]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "3"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 3
+[LOG] Reloading nginx
+[LOG]----------STOP SLAVE---------- at 2022-11-28 08:27:46
+[LOG] Removing from backend block. IP: [192.168.50.231]
+[LOG] Removing the imported slave VM.
+[LOG] Removing the last started running slave.
+[LOG] Import the next VM to be ready to start.
+Disks:
+  vmdisk1	5368709120	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	ubu_replicable-disk001.vmdk	-1	-1	
+
+Virtual system 0:
+ 0: Suggested OS type: "Ubuntu_64"
+    (change with "--vsys 0 --ostype <type>"; use "list ostypes" to list all possible values)
+ 1: VM name specified with --vmname: "2"
+ 2: Suggested VM group "/Szakdoga"
+    (change with "--vsys 0 --group <group>")
+ 3: Suggested VM settings file name "/root/VirtualBox VMs/Szakdoga/ubu_slave/ubu_slave.vbox"
+    (change with "--vsys 0 --settingsfile <filename>")
+ 4: Suggested VM base folder "/root/VirtualBox VMs"
+    (change with "--vsys 0 --basefolder <path>")
+ 5: Number of CPUs: 1
+    (change with "--vsys 0 --cpus <n>")
+ 6: Guest memory: 1024 MB
+    (change with "--vsys 0 --memory <MB>")
+ 7: Sound card (appliance expects "", can change on import)
+    (disable with "--vsys 0 --unit 7 --ignore")
+ 8: USB controller
+    (disable with "--vsys 0 --unit 8 --ignore")
+ 9: Network adapter: orig Bridged, config 3, extra slot=0;type=Bridged
+10: CD-ROM
+    (disable with "--vsys 0 --unit 10 --ignore")
+11: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 11 --ignore")
+12: IDE controller, type PIIX4
+    (disable with "--vsys 0 --unit 12 --ignore")
+13: SATA controller, type AHCI
+    (disable with "--vsys 0 --unit 13 --ignore")
+14: Hard disk image: source image=ubu_replicable-disk001.vmdk, target path=ubu_replicable-disk001.vmdk, controller=13;port=0
+    (change target path with "--vsys 0 --unit 14 --disk path";
+    change controller with "--vsys 0 --unit 14 --controller <index>";
+    change controller port with "--vsys 0 --unit 14 --port <n>";
+    disable with "--vsys 0 --unit 14 --ignore")
+Successfully imported the appliance.
+[LOG] Updating the next slave ID to 2
+[LOG] Reloading nginx
